@@ -1,0 +1,253 @@
+@font-face {
+    font-family: 'Pretendard-Thin';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+@font-face {
+  font-family: 'Pretendard-ExtraLight';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+  
+  
+@font-face {
+  font-family: 'Pretendard-Light';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard-Medium';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard-SemiBold';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+ }
+
+@font-face {
+  font-family: 'Pretendard-ExtraBold';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-weight-normal{
+  font-family: 'Pretendard-Regular';
+  font-weight: 400;
+}
+
+.font-weight-medium{
+  font-family: 'Pretendard-Medium';
+  font-weight: 500;
+}
+
+.font-weight-semibold{
+  font-family: 'Pretendard-SemiBold';
+  font-weight: 600;
+}
+
+.font-weight-bold{
+  font-family: 'Pretendard-Bold';
+  font-weight: 700;
+}
+
+.font-weight-bolder{
+  font-family: 'Pretendard-ExtraBold';
+  font-weight: 800;
+}
+
+.font-size-12-px{
+  font-size: 12px;
+}
+
+.font-size-13-px{
+  font-size: 13px;
+}
+
+.font-size-14-px{
+  font-size: 14px;
+}
+
+.font-size-16-px{
+  font-size: 16px;
+}
+
+.font-size-18-px{
+  font-size: 18px;
+}
+
+.font-size-20-px{
+  font-size: 20px;
+}
+
+.font-color-black{
+  color: #191919;
+}
+
+.font-color-gray{
+  color: #444444;
+}
+
+.font-color-light{
+  color:#949494;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+body{
+  font-family: 'Pretendard-Regular' , 'Nunito' , sans-serif;
+  font-size: 14px;
+  color: #191919;
+  line-height: 1.6;
+  height: 100%;
+}
+
+.wrap{
+  
+  overflow: auto;
+}
+
+
+ul li{
+  list-style: none;
+  text-decoration: none;
+}
+
+a, a:hover{
+  color: #000;
+  text-decoration: none;
+}
+
+.form-check-label{
+   margin-top: 1px;
+   cursor: pointer;
+}
+
+.form-check-input[type=checkbox],
+.form-select{
+   border-radius: 3px;
+   cursor: pointer;
+}
+
+.form-control{
+   padding: 10px 6px;
+   text-indent: 5px;
+}
+
+.form-control::placeholder{
+   color: #aeaeae;
+   font-size: 14px;
+}
+
+
+.btn{
+   padding: 10px 6px;
+   border-radius: 3px;
+   cursor: pointer;
+}
+
+.btn-primary{
+   border: 1px solid #f23030;
+   background: #f23030;
+   color: #fff;
+}
+
+.btn-outline-primary{
+   border: 1px solid #f23030;
+   background: #fff;
+   color: #f23030;
+}
+
+
+.btn-secondary{
+   background: #efefef;
+   border: 1px solid #efefef;
+   color: #444;
+}
+
+.btn-outline-secondary{
+   border: 1px solid #b5b5b5;
+   background: #fff;
+   color: #777;
+}
+
+
+.form-check-input:checked {
+   background-color: #f23030;
+   border-color: #f23030;
+}
+
+
+.container {
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 700px;
+  width: 100%;
+}
+
+.title{
+  font-family: 'Pretendard-Bold';
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.title:before{
+  content: "";
+  width: 3px;
+  height: 13px;
+  background-color: #f23030;
+  display: inline-block;
+  margin-right: 6px;
+  position: relative;
+  top: 1px;
+}
+
+.info-box{
+  background: #f8f7f6;
+}
+
+.sub-btn button{
+  font-size: 13px;
+  border-radius: 3px;
+  padding: 6px;
+}
